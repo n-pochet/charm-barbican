@@ -24,3 +24,7 @@ requires:
   secrets:
     interface: barbican-secrets
     optional: true
+provides:
+  barbican:
+    interface: barbican
+    optional: true
